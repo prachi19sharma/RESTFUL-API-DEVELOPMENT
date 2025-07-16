@@ -1,0 +1,108 @@
+/* General layout */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Headings */
+h1 {
+  color: #2c3e50;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+h3 {
+  color: #34495e;
+  margin-top: 30px;
+}
+
+/* Form groups and layout */
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+/* Input fields */
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 180px;
+}
+
+/* Buttons */
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
+
+/* Button types */
+.btn-add {
+  background-color: #27ae60;
+  color: white;
+}
+.btn-add:hover {
+  background-color: #219150;
+}
+
+.btn-refresh {
+  background-color: #3498db;
+  color: white;
+}
+.btn-refresh:hover {
+  background-color: #258cd1;
+}
+
+.btn-outofstock {
+  background-color: #f39c12;
+  color: white;
+}
+.btn-outofstock:hover {
+  background-color: #e08e0b;
+}
+
+.btn-danger {
+  background-color: #e74c3c;
+  color: white;
+}
+.btn-danger:hover {
+  background-color: #c0392b;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+th {
+  background-color: #ecf0f1;
+  font-weight: bold;
+}
+
+/* Zebra striping */
+tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+/* Hover effect */
+tr:hover {
+  background-color: #f0f0f0;
+}
